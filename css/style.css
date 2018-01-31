@@ -1,0 +1,217 @@
+.navBar{
+	position: fixed;
+	z-index: 3;
+	background-color: #0477e2e3;
+}
+
+.boxS{
+	box-shadow:  0px 5px 8px 10px #0e0d0dbd;
+}
+
+.img1{
+	background-image: url("http://canacopegdl.com/images/in-doubt/in-doubt-18.jpg");
+	height: 92vh;
+	background-size: 100%;
+	background-position-x: 20%;
+	background-position-y: 30%;
+	background-repeat: no-repeat;
+}
+.opacidade{
+	background-color: black;
+	z-index: 2;
+	height: 92vh;
+	opacity: 0.95;
+	background: linear-gradient(to right, black , transparent);
+	max-width: none;
+
+}
+
+.marginDiv{
+	max-width: none;
+
+}
+
+.conteudo{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 80px;
+
+}
+.logo{
+	width: auto;
+	height: 55px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	
+}
+.entrar{
+	color: white;
+	background-color: rgb(56, 158, 15);
+	border: none;
+	border-radius: 3px;
+	padding: 5px 20px;
+	box-shadow: 0px 1px 1px 1px #474646;
+}
+.entrar:hover{
+	color: white;
+	background-color: rgb(58, 187, 7);
+	border: none;
+	border-radius: 3px;
+	padding: 5px 20px;
+	box-shadow: 0px 1px 1px 1px #474646;
+}
+.bntCursos{
+	color: white;
+	background-color: rgb(69, 80, 65);
+	border: none;
+	border-radius: 3px;
+	padding: 3px 20px;
+	margin-top: 4px;
+}
+.bntCursos:hover{
+	color: rgb(26, 24, 24);
+	background-color: rgb(199, 209, 196);
+	border: none;
+	border-radius: 3px;
+	padding: 3px 20px;
+	margin-top: 4px;
+}
+
+.bntSaibaMais{
+	color: white;
+	background-color: rgb(3, 158, 24);
+	border: none;
+	border-radius: 3px;
+	padding: 10px 70px;
+	
+}
+
+.h1cadastre{
+	font-size: 20px;
+	
+}
+
+.titulo{
+	color: white;
+	padding-top: 100px;
+	font-size: 60px;	
+
+}
+
+.subtitulo{
+	color: white;
+	font-size: 26px;
+
+}
+
+
+.bkgForm {
+	background-color: #ffffffb0;
+	margin-top: 100px;
+    height: 80%;
+    border-radius: 10px;
+    padding-top: 25px;
+    box-shadow: 0px 6px 5px 5px #0e0d0dcb;
+}
+
+.section2{
+ max-width: none;
+ margin-top: 35px;
+ margin-bottom: 20px;
+ justify-content: center;
+ padding: 0px 50px;
+}
+
+.divSection2{
+ text-align: justify;
+}
+
+.section3{
+ max-width: none;
+ justify-content: center;
+ margin: 0 auto;
+ background-color: #050505;
+ height: 55vh;
+ box-shadow: 0px 6px 15px 15px #0e0d0dcb;
+}
+
+.divSection3{
+ text-align: justify;
+ margin: 0 auto;
+}
+.section4{
+ height: 550px;
+ max-width: none;
+ margin-top: 35px;
+ margin-bottom: 20px;
+ justify-content: center;
+ padding: 0px 50px;
+}
+
+.divSection4{
+ height: 550px;	
+ text-align: justify;
+}
+.section5{
+	max-width: none;
+	justify-content: center;
+	padding: 0px 50px;
+	background-color: #20914b;
+	height: 50vh;
+}
+
+.divSection5{
+ text-align: justify;
+}
+
+
+
+.bkg-footer{
+	max-width: none;
+	margin-bottom: 20px;
+	justify-content: center;
+	background-color: #77830b;
+	height: 50vh;
+}
+
+.imgCarouselTeste{
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+	margin-left: 200px;
+}
+
+.iconbkg{
+	padding-top: 69px;
+	font-size: 130px;
+	color: antiquewhite;
+}
+
+.h2Cursos{
+	margin: 0 auto;
+	color: antiquewhite
+}
+.imgParceiros{
+	height: auto;
+	width: 500px;
+}
+
+
+
+
+@media (max-width: 970px){
+	.bkg-footer{
+	background-color: green;
+	}
+
+
+	.opacidade{
+	background-color: black;
+	z-index: 2;
+	height: 20vh;
+	opacity: 0.95;
+	background: center-gradient(to top, black , transparent);
+	max-width: none;
+	}
+
+}
